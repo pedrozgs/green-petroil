@@ -71,7 +71,7 @@ import { SectionHeadingComponent } from '../shared/section-heading.component';
     </section>
   `,
   styles: [`
-    .hero{min-height:610px;position:relative;display:flex;align-items:center;color:white;background:#0a302a url('assets/industrial-energy.svg') center 48%/cover}
+    .hero{min-height:610px;position:relative;display:flex;align-items:center;color:white;background:#0a302a url('/green-petroil/assets/industrial-energy.svg') center 48%/cover}
     .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,29,26,.94) 0%,rgba(4,35,30,.82) 48%,rgba(4,35,30,.18) 100%)}
     .hero-content{position:relative;z-index:1;padding-top:65px;padding-bottom:80px}
     .hero-kicker{font-size:10px;letter-spacing:2px;color:#c2dfbd;font-weight:700}.hero-kicker i,.live-tag i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a8dca6;margin-right:9px}

@@ -16,7 +16,7 @@ import { SectionHeadingComponent } from '../shared/section-heading.component';
     <section class="quote"><div class="container"><span>“</span><h2>O desenvolvimento só faz sentido quando é compartilhado.</h2><p>Green Petroil · Compromisso com as pessoas</p></div></section>
   `,
   styles: [`
-    .page-hero{background:linear-gradient(90deg,#082c28ed,#082c28aa),url('assets/community.svg') center/cover;padding:105px 0;color:#fff}
+    .page-hero{background:linear-gradient(90deg,#082c28ed,#082c28aa),url('/green-petroil/assets/community.svg') center/cover;padding:105px 0;color:#fff}
     .eyebrow{font-size:10px;letter-spacing:2px;color:#b8e2ae;font-weight:800}.page-hero h1{font:800 clamp(38px,5vw,60px)/1.12 Manrope;letter-spacing:-2px;margin:20px 0}.page-hero h1 em{font-style:normal;color:#b8e2ae}.page-hero p{color:#d1ded6;max-width:540px;line-height:1.8}
     .section-pad{padding:90px 0}.social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.social-grid article{border:1px solid #e4ebe5;border-radius:7px;overflow:hidden}.social-grid img{width:100%;height:210px;object-fit:cover}.social-grid article>div{padding:23px}.social-grid span{font-size:10px;letter-spacing:1.5px;color:#4c8b5d;font-weight:800}.social-grid h2{font:750 19px Manrope;color:#163d32;margin:12px 0}.social-grid p{font-size:13px;line-height:1.8;color:#6c7c73}
     .quote{background:#092f2b;padding:75px 0;text-align:center}.quote span{font:800 75px Georgia;color:#a8d9a5;line-height:.8}.quote h2{font:750 clamp(25px,4vw,38px) Manrope;color:#fff;max-width:720px;margin:10px auto 20px}.quote p{font-size:11px;letter-spacing:1.5px;color:#b2c9bc}
