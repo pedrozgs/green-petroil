@@ -27,7 +27,7 @@ import { SectionHeadingComponent } from '../shared/section-heading.component';
     <section class="intro section-pad">
       <div class="container intro-grid">
         <div class="intro-photo">
-          <img src="/assets/hero-energy.svg" alt="Instalação de energia ao pôr do sol">
+          <img src="assets/hero-energy.svg" alt="Instalação de energia ao pôr do sol">
           <div class="photo-caption"><b>Energia para hoje.</b><span>Responsabilidade para amanhã.</span></div>
         </div>
         <div class="intro-copy">
@@ -66,12 +66,12 @@ import { SectionHeadingComponent } from '../shared/section-heading.component';
     <section class="social-banner">
       <div class="container social-inner">
         <div><span class="eyebrow">PESSOAS FAZEM A DIFERENÇA</span><h2>Desenvolver também é<br><em>cuidar de pessoas.</em></h2><p>Conheça as ações sociais que apoiam educação, oportunidades e qualidade de vida nas comunidades.</p><a class="button button-green" routerLink="/social">Conheça nossas iniciativas <span>↗</span></a></div>
-        <div class="social-image"><img src="/assets/community.svg" alt="Grupo de pessoas reunidas em atividade comunitária"></div>
+        <div class="social-image"><img src="assets/community.svg" alt="Grupo de pessoas reunidas em atividade comunitária"></div>
       </div>
     </section>
   `,
   styles: [`
-    .hero{min-height:610px;position:relative;display:flex;align-items:center;color:white;background:#0a302a url('/assets/industrial-energy.svg') center 48%/cover}
+    .hero{min-height:610px;position:relative;display:flex;align-items:center;color:white;background:#0a302a url('assets/industrial-energy.svg') center 48%/cover}
     .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,29,26,.94) 0%,rgba(4,35,30,.82) 48%,rgba(4,35,30,.18) 100%)}
     .hero-content{position:relative;z-index:1;padding-top:65px;padding-bottom:80px}
     .hero-kicker{font-size:10px;letter-spacing:2px;color:#c2dfbd;font-weight:700}.hero-kicker i,.live-tag i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a8dca6;margin-right:9px}

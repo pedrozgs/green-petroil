@@ -10,7 +10,7 @@ const localPosts: NewsPost[] = [
     body: 'A Green Petroil está ampliando o monitoramento digital de suas operações. Sensores, análise de dados e manutenção preventiva ajudam a reduzir desperdícios, identificar riscos com antecedência e tornar os processos mais eficientes. A iniciativa faz parte de um plano contínuo de melhoria operacional e responsabilidade ambiental.',
     category: 'INOVAÇÃO',
     date: '12 de outubro de 2026',
-    image: '/assets/hero-energy.svg',
+    image: 'assets/hero-energy.svg',
     readTime: '4 min de leitura'
   },
   {
@@ -19,7 +19,7 @@ const localPosts: NewsPost[] = [
     body: 'A recuperação ambiental é uma etapa importante do compromisso da empresa com as regiões onde atua. O trabalho inclui acompanhamento de áreas, plantio de espécies nativas e ações de proteção da biodiversidade, sempre com planejamento e avaliação dos resultados.',
     category: 'MEIO AMBIENTE',
     date: '28 de setembro de 2026',
-    image: '/assets/forest.svg',
+    image: 'assets/forest.svg',
     readTime: '5 min de leitura'
   },
   {
@@ -28,7 +28,7 @@ const localPosts: NewsPost[] = [
     body: 'Além das atividades industriais, a Green Petroil mantém iniciativas voltadas ao desenvolvimento das comunidades próximas às suas operações. Educação, diálogo e segurança são pilares para construir relações responsáveis e duradouras.',
     category: 'COMUNIDADE',
     date: '10 de setembro de 2026',
-    image: '/assets/community.svg',
+    image: 'assets/community.svg',
     readTime: '3 min de leitura'
   }
 ];
