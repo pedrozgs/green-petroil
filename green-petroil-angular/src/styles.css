@@ -1,0 +1,8 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:#183c32;background:#fff}
+.container{width:min(1160px,calc(100% - 48px));margin:0 auto}
+button,a{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible{outline:3px solid #77b77e;outline-offset:3px}
+::selection{background:#b8e2ae;color:#10382d}
+@media(max-width:500px){.container{width:calc(100% - 36px)}}
